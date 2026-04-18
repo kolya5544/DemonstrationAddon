@@ -16,6 +16,8 @@ public class ExampleAddon extends LabyAddon<ExampleConfiguration> {
     this.registerCommand(new ExamplePingCommand());
 
     this.logger().info("Enabled the Addon");
+
+    this.logger().info("Hello world! This is my very first LabyMod Addon.");
   }
 
   @Override
